@@ -1,3 +1,24 @@
-<p>
-  experiences works!
-</p>
+<div class="container">
+  <div class="row">
+    <div *ngFor="let exp of experiences" 
+        class="card w-100" style="width: 18rem;" >
+        <div class="div-card-img-top">
+          <img class="card-img-top" [src]="exp.imageURL" 
+          alt="Card image cap" [style.max-width.px]=imageWidth>
+        </div>
+      <div class="card-body">
+          <h6 class="card-title">
+            {{exp.title}}
+          </h6>
+          
+          <span class="badge badge-primary">Début : {{exp.dateFrom | date :  "dd-MM-y"}}</span>
+          <span *ngIf="exp.dateTo" class="badge badge-secondary">Fin : {{exp.dateTo | date :  "dd-MM-y"}}</span>
+          <p class="card-text" [innerHtml]="exp.description">
+          </p>
+          <h6><div *ngFor="let skill of exp.skillsInvolved" class="badge badge-info">{{skill}}</div></h6>
+          <a href="#" class="btn btn-primary">Details</a>
+        </div>
+      </div>
+  </div>
+</div>
+

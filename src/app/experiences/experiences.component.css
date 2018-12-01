@@ -1,0 +1,24 @@
+.container{
+    margin-top: 120px;
+}
+
+.card {
+    margin: 5px;
+    background: #dddfd4;
+    color: #173e43;
+}
+
+.card .btn-primary{
+    background: #173e43;
+    border-color: #173e43;
+}
+
+.badge{
+    margin: 2px;
+    background: #3fb0ac;
+}
+
+.div-card-img-top {
+    height: 30%;
+    margin: 30px auto;
+}

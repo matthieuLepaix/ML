@@ -1,3 +1,23 @@
-<p>
-  education works!
-</p>
+<div class="container">
+    <div class="row">
+      <div *ngFor="let education of educations" 
+          class="card col-md" style="width: 18rem;" >
+          <div class="div-card-img-top">
+            <img class="card-img-top" [src]="education.imageURL" 
+            alt="Card image cap" [style.max-width.px]=imageWidth>
+          </div>
+        <div class="card-body">
+            <h6 class="card-title">
+              {{education.title}}
+            </h6>
+            
+            <span class="badge badge-primary">Début : {{education.dateFrom | date :  "dd-MM-y"}}</span>
+            <span *ngIf="education.dateTo" class="badge badge-secondary">Fin : {{education.dateTo | date :  "dd-MM-y"}}</span>
+            <p class="card-text" [innerHtml]="education.description">
+            </p>
+            <h6><div *ngFor="let skill of education.skillsInvolved" class="badge badge-info">{{skill}}</div></h6>
+            <a href="#" class="btn btn-primary">Details</a>
+          </div>
+        </div>
+    </div>
+  </div>

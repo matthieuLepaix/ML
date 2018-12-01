@@ -8,7 +8,7 @@ import { EducationComponent } from './education/education.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
-  { path: '', component: ExperiencesComponent },
+  { path: '', component: AboutComponent },
   { path: 'about',      component: AboutComponent },
   { path: 'experiences', component: ExperiencesComponent },
   { path: 'education', component: EducationComponent },

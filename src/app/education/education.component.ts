@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Education } from './education';
+import { EducationService } from './education.service';
+
 @Component({
   selector: 'app-education',
   templateUrl: './education.component.html',
@@ -7,9 +10,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EducationComponent implements OnInit {
 
-  constructor() { }
+  imageWidth: number = 200;
+
+  educations: Education[];
+
+  constructor(private service: EducationService) { }
 
   ngOnInit() {
+    this.service.getExperiences().subscribe(
+      data => this.educations = data
+    );
   }
 
 }

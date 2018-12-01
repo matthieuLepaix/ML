@@ -1,12 +1,25 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
+<div class="navbar fixed-top">
+  <div>
+    <h1>{{ title }} 
+      <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/1024px-Linkedin_icon.svg.png"/>
+    </h1>
+    <h4>[Full stack .Net developer]</h4>
+  </div>
+<ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/about">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/experiences">Experiences</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/education">Education</a>
+    </li>
+</ul>
 </div>
-<nav>
-  <a routerLink="/experiences" >Experiences</a>
-  <a routerLink="/education" >Education</a>
-  <a routerLink="/about" >About</a>
-</nav>
 <router-outlet></router-outlet>
+<footer class="footer">
+  <div class="container">
+  </div>
+</footer>

@@ -1,0 +1,16 @@
+.navbar{
+    background-color: #173e43;
+    color:#fae596;
+}
+.navbar .nav li a{
+    color: #fae596;
+}
+
+
+footer{    
+    padding: 15px 0 15px 0 ;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: #173e43;
+}

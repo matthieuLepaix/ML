@@ -1,0 +1,32 @@
+[
+{
+    "id":0,
+    "title": "Fullstack .Net Developer",
+    "dateFrom": "2018/10/15",
+    "dateTo": null,
+    "firm": "Cision",
+    "description":"Description du poste",
+    "skillsInvolved": [".Net","Angular"],
+    "imageURL": "https://logos-download.com/wp-content/uploads/2018/09/Cision_Logo.png"
+},
+{
+    "id":1,
+    "title": "Software engineer - Technical Leader",
+    "dateFrom": "2016/10/17",
+    "dateTo": "2018/10/4",
+    "firm": "Sopra Steria Group",
+    "description": "Project for <a href=\"https://www.grdf.fr/particuliers/services-gaz-en-ligne/gazpar-le-compteur-communicant-gaz\">GRDF (french natural gas distributor)</a>.<br>My role :\n<ul><li>Work on the 6 mobile apps : 1 Android, 4 Windows mobile 6.5 and 1 windows 8.1</li><li>Analyze and fix issues detected by the functional teams.</li><li>Conception of new features to develop, and integrate them into the apps.</li><li>Handle the quality of the code and the apps' performance</li><li>Deal with web services and infrastructure constraints (Certificates, Datapower)</li><li>Carry out the continuous integration with jenkins hosted on virtual machines</li></ul>",
+    "skillsInvolved": [".Net"],
+    "imageURL": "https://www.miage.net/wp-content/uploads/2015/02/SOPRASTERIA_logo.png"
+},
+{
+    "id":3,
+    "title": "Business Analyst",
+    "dateFrom": "2016/4/1",
+    "dateTo": "2018/9/31",
+    "firm": "Michelin",
+    "description": "The aim was to improve the company transformation (agility) via a better synergy of company fundamentals: datas, business rules, processus and applications.",
+    "skillsInvolved": [".Net"],
+    "imageURL": "https://www.trefle-lozerien-amv.com/wp-content/uploads/2018/05/michelin.png"
+}
+]
