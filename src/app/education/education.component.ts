@@ -11,6 +11,7 @@ import { EducationService } from './education.service';
 export class EducationComponent implements OnInit {
 
   imageWidth: number = 200;
+  title:string = "Education";
 
   educations: Education[];
 

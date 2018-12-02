@@ -1,25 +1,44 @@
-<!--The content below is only a placeholder and can be replaced.-->
+<header>
 <div class="navbar fixed-top">
   <div>
-    <h1>{{ title }} 
-      <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/1024px-Linkedin_icon.svg.png"/>
+    <h1>
+      {{ title }}
     </h1>
-    <h4>[Full stack .Net developer]</h4>
   </div>
 <ul class="nav justify-content-end">
     <li class="nav-item">
-      <a class="nav-link" routerLink="/about">About</a>
+      <a class="nav-link" routerLink="/about">
+        <i class="fas fa-feather-alt"></i>
+        About me</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" routerLink="/experiences">Experiences</a>
+      <a class="nav-link" routerLink="/experiences">
+        <i class="fas fa-laptop-code"></i>
+        Experiences</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" routerLink="/education">Education</a>
+      <a class="nav-link" routerLink="/education">
+        <i class="fas fa-graduation-cap"></i>
+        Education</a>
     </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/contact">
+        <i class="fas fa-at"></i>
+        Contact</a>
+    </li>
+    <img src="assets/images/FR-flag.png" width="42px" height="42px">
+    <img src="assets/images/UK-flag.png" width="40px" height="40px">
 </ul>
 </div>
-<router-outlet></router-outlet>
-<footer class="footer">
-  <div class="container">
+</header>
+<section class="main">
+  <div [@routeAnimations]="prepareRoute(outlet)" >
+    <router-outlet #outlet="outlet"></router-outlet>
   </div>
-</footer>
+</section>
+<!-- <footer class="footer">
+  <div class="container">
+    <a href="#">
+    </a>
+  </div>
+</footer> -->

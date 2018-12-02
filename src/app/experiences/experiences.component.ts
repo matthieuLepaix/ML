@@ -10,6 +10,7 @@ import { ExperiencesService } from './experiences.service';
 export class ExperiencesComponent implements OnInit {
 
   imageWidth: number = 200;
+  title:string = "Experiences";
 
   experiences: Experience[];
 

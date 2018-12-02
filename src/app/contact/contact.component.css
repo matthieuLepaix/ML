@@ -1,0 +1,39 @@
+div{
+    color: #173e43;
+    text-align: center;
+}
+
+
+.contact-list{
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+.contact-list li{
+    margin: 25px;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.contact-list li a {
+    color: #173e43;
+}
+
+.contact-list li img{
+    width: 50px;
+    margin-top: -5px;
+    margin-left: 20px;
+}
+
+.contact-list li i{
+    /* font-size: 30px; */
+    min-width: 50px;
+    margin-right: 5px;
+}
+
+.contact-social-network a{
+    font-size: 45px;
+    margin: 20px;
+}
+
+

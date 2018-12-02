@@ -1,0 +1,11 @@
+
+
+p{
+    text-align: center;
+}
+.img-rounded-circle{
+    margin: 10px;
+    width: 300px;
+    border: 10px solid #173e43;
+    border-radius: 50%;
+}
