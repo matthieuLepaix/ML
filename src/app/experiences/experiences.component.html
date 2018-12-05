@@ -1,24 +1,30 @@
-<h1 class="title">{{title}}</h1>
-<div class="container">
-  <div class="row">
-    <div *ngFor="let exp of experiences" 
-        class="card col-md" style="width: 18rem;" >
-        <div class="div-card-img-top">
-          <img class="card-img-top" [src]="exp.imageURL" 
-          alt="Card image cap" [style.max-width.px]=imageWidth>
-        </div>
-      <div class="card-body">
-          <h6 class="card-title">
+<div class="main">
+  <h1 class="title">{{title}}</h1>
+    <div class="row">
+      <div *ngFor="let exp of experiences" 
+          class="card col-md" style="width: 18rem;" >
+        <table class="div-card-img-top" [style.max-width.px]=imageWidth>
+          <tr>
+            <td>
+              <img class="card-img-top" [src]="exp.imageURL"
+              alt="Card image cap" >
+            </td>
+          </tr> 
+        </table>
+        <div class="card-body">
+          <h6 class="card-title badge">
+            <i class="fas fa-user-circle"></i>
             {{exp.title}}
-          </h6>
-          
-          <span class="badge badge-primary">Début : {{exp.dateFrom | date :  "dd-MM-y"}}</span>
-          <span *ngIf="exp.dateTo" class="badge badge-secondary">Fin : {{exp.dateTo | date :  "dd-MM-y"}}</span>
-          
-          <h6><div *ngFor="let skill of exp.skillsInvolved" class="badge badge-info">{{skill}}</div></h6>
-          <a href="#" class="btn btn-primary">Details</a>
+          </h6><br>
+          <span><i class="fas fa-play-circle"></i>{{exp.dateFrom | date :  "dd MMMM y"}}</span><br>
+          <span *ngIf="exp.dateTo"><i class="fas fa-flag-checkered"></i>{{exp.dateTo | date :  "dd MMMM y"}}</span>
+          <p class="card-description" [innerHTML]="exp.description"></p>
+          <div class="card-skills">
+            <span *ngFor="let skill of exp.skillsInvolved" class="badge" [innerHTML]="skill">
+            </span>
+          </div>
+          <!-- <a href="#" class="btn btn-primary">Details</a> -->
         </div>
       </div>
-  </div>
+    </div>
 </div>
-

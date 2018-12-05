@@ -1,24 +1,31 @@
-<h1 class="title">{{title}}</h1>
-<div class="container">
-    <div class="row">
-      <div *ngFor="let education of educations" 
-          class="card col-md" style="width: 18rem;" >
-          <div class="div-card-img-top">
-            <img class="card-img-top" [src]="education.imageURL" 
-            alt="Card image cap" [style.max-width.px]=imageWidth>
-          </div>
-        <div class="card-body">
-            <h6 class="card-title">
+<div class="main">
+    <h1 class="title">{{title}}</h1>
+      <div class="row">
+        <div *ngFor="let education of educations" 
+            class="card col-md" style="width: 18rem;" >
+          <table class="div-card-img-top" [style.max-width.px]=imageWidth>
+            <tr>
+              <td>
+                <img class="card-img-top" [src]="education.imageURL"
+                alt="Card image cap" >
+              </td>
+            </tr> 
+          </table>
+          <div class="card-body">
+            <h6 class="card-title badge">
+              <i class="fas fa-user-circle"></i>
               {{education.title}}
-            </h6>
-            
-            <span class="badge badge-primary">Début : {{education.dateFrom | date :  "dd-MM-y"}}</span>
-            <span *ngIf="education.dateTo" class="badge badge-secondary">Fin : {{education.dateTo | date :  "dd-MM-y"}}</span>
-            <p class="card-text" [innerHtml]="education.description">
-            </p>
-            <h6><div *ngFor="let skill of education.skillsInvolved" class="badge badge-info">{{skill}}</div></h6>
-            <a href="#" class="btn btn-primary">Details</a>
+            </h6><br>
+            <span><i class="fas fa-play-circle"></i>{{education.dateFrom | date :  "dd MMMM y"}}</span><br>
+            <span *ngIf="education.dateTo"><i class="fas fa-flag-checkered"></i>{{education.dateTo | date :  "dd MMMM y"}}</span>
+            <p class="card-description" [innerHTML]="education.description"></p>
+            <div class="card-skills">
+              <span *ngFor="let skill of education.skillsInvolved" class="badge" [innerHTML]="skill">
+              </span>
+            </div>
+            <!-- <a href="#" class="btn btn-primary">Details</a> -->
           </div>
         </div>
-    </div>
+      </div>
   </div>
+  

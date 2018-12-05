@@ -1,41 +1,44 @@
-<header>
-<div class="navbar fixed-top">
-  <div>
+<header class="navbar navbar-expand-lg fixed-top scrolling-navbar ">
+  <div class="container container-nav">
     <h1>
+      <a href="#home-area">
       {{ title }}
+      </a>
     </h1>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="#about-area">
+            <i class="fas fa-feather-alt"></i>
+            About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experiences-area" >
+            <i class="fas fa-laptop-code"></i>
+            Experiences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education-area">
+            <i class="fas fa-graduation-cap"></i>
+            Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-area">
+            <i class="fas fa-at"></i>
+            Contact</a>
+        </li>
+        <img src="assets/images/FR-flag.png" width="42px" height="42px">
+        <img src="assets/images/UK-flag.png" width="40px" height="40px">
+    </ul>
   </div>
-<ul class="nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link" routerLink="/about">
-        <i class="fas fa-feather-alt"></i>
-        About me</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" routerLink="/experiences">
-        <i class="fas fa-laptop-code"></i>
-        Experiences</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" routerLink="/education">
-        <i class="fas fa-graduation-cap"></i>
-        Education</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" routerLink="/contact">
-        <i class="fas fa-at"></i>
-        Contact</a>
-    </li>
-    <img src="assets/images/FR-flag.png" width="42px" height="42px">
-    <img src="assets/images/UK-flag.png" width="40px" height="40px">
-</ul>
-</div>
 </header>
-<section class="main">
-  <div [@routeAnimations]="prepareRoute(outlet)" >
+  <!-- <div [@routeAnimations]="prepareRoute(outlet)" >
     <router-outlet #outlet="outlet"></router-outlet>
-  </div>
-</section>
+  </div> -->
+  <app-home id="home-area"></app-home>
+  <app-about id="about-area"></app-about>
+  <app-experiences id="experiences-area"></app-experiences>
+  <app-education id="education-area"></app-education>
+  <app-contact id="contact-area"></app-contact>
 <!-- <footer class="footer">
   <div class="container">
     <a href="#">

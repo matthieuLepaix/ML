@@ -1,6 +1,12 @@
-div{
-    color: #173e43;
+.main{
+    background-color: #143837;
+    color:#fae596;
     text-align: center;
+}
+
+h1.title{
+    color: #fae596;
+	border-bottom: 1px solid #fae596;
 }
 
 
@@ -13,10 +19,6 @@ div{
     margin: 25px;
     font-size: 25px;
     vertical-align: middle;
-}
-
-.contact-list li a {
-    color: #173e43;
 }
 
 .contact-list li img{
@@ -36,4 +38,13 @@ div{
     margin: 20px;
 }
 
+* a{
+    color: #fae596;
+}
+
+
+* a:hover{
+    color: #f4c10b;
+    text-decoration: none;
+}
 

@@ -2,13 +2,19 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~font-awesome/css/font-awesome.min.css';
 
-body {
-    background: whitesmoke;
+html{
+	scroll-behavior: smooth;
 }
 
-.main{
-    margin-top: 9%;
-    margin-bottom: 15%;
+body {
+	background: whitesmoke;
+	
+    font-family: 'Noticia Text', serif;
+}
+
+.main {
+	padding: 80px 0;
+	min-height: 700px;
 }
 
 /*Pop Effect*/
@@ -16,16 +22,17 @@ h1.title{
     text-align: center;
     padding-bottom: 20px;
     width: 50%;
-    border-bottom: 2px solid #dddfd4;
-    margin: 80px auto;
-	animation: pop 2s linear infinite 0s;
+	border-bottom: 2px solid #dddfd4;
+	margin: 0 auto;
+	margin-bottom: 60px; 
+	/* animation: pop 2s linear infinite 0s;
 	-ms-animation: pop 2s linear infinite 0s;
 	-webkit-animation: pop 2s linear infinite 0s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 1; */
 }
 
 /*Pop Effect Animation*/
-@-moz-keyframes pop{
+/* @-moz-keyframes pop{
 	0% { opacity: 0; }
 	5% { opacity: 0; -moz-transform: rotate(0deg) scale(0.10) skew(0deg) translate(0px); }
 	10% { opacity: 1; -moz-transform: translateY(0px); }
@@ -66,4 +73,4 @@ footer{
 	-ms-animation: pop 10s linear infinite 0s;
 	-webkit-animation: pop 10s linear infinite 0s;
     animation-iteration-count: 1;
-}
+} */

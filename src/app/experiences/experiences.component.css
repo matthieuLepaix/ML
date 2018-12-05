@@ -1,24 +1,61 @@
+.main{
+    background: #f6ce3c;
+    color: #369693;
+    padding: 30px;
+    padding-top: 80px;
+}
+
 .container{
     margin: 0 auto;
 }
 
-.card {
-    margin: 5px;
-    background: #dddfd4;
-    color: #173e43;
+h1.title{
+	border-bottom: 2px solid #369693;
 }
 
-.card .btn-primary{
-    background: #173e43;
-    border-color: #173e43;
-}
-
-.badge{
-    margin: 2px;
-    background: #3fb0ac;
+.card{
+    font-size: 120%; 
+    text-align: justify;
+    margin: 20px;
+    padding: 30px 20px;
+    min-height: 500px;
+    background:#f8da6d;
+    color: #2f8380;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+    border-radius: 7px;
+    text-align: justify;
 }
 
 .div-card-img-top {
+    margin: 0 auto;
     height: 30%;
-    margin: 30px auto;
+    vertical-align: middle;
+}
+
+.card-title{
+    text-align: left;
+    font-size: 100%;
+}
+
+.card-body span i{
+    width: 10%;
+}
+
+.card-title.badge, .card-skills span{
+    background: #2f8380;
+    color: #f8da6d;
+}
+
+.card-description{
+    margin-top: 10px; 
+    font-size: 80%;
+}
+
+.card{
+    height: auto;
+}
+
+.card-skills span{
+    margin: 5px;
+    font-size: 100%;
 }

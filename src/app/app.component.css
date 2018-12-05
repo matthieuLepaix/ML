@@ -4,12 +4,20 @@
 
 .navbar{
     font-size: 18px;
-    min-height: 15%;
-    background-color: #173e43;
+    background-color: #143837;
     color:#fae596;
-    padding-left: 50px;
+}
+
+.navbar h1 a, .navbar h1 a{
+    color: #fae596;
+    text-decoration: none;
 }
 
 .navbar .nav li a{
     color: #fae596;
+}
+
+
+.navbar .nav li a:hover, .navbar h1 a:hover{
+    color: #f4c10b;
 }
