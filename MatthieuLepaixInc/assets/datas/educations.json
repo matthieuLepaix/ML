@@ -1,0 +1,32 @@
+[
+{
+    "id":0,
+    "title": "Engineering - Software engineer",
+    "dateFrom": "2013/09/01",
+    "dateTo": "2016/09/31",
+    "school": "ISIMA",
+    "description":"Description du poste",
+    "skillsInvolved": [".Net","Angular"],
+    "imageURL": "https://lucbabut.files.wordpress.com/2016/05/isima.png"
+},
+{
+    "id":1,
+    "title": "Master - Business management",
+    "dateFrom": "2015/09/15",
+    "dateTo": "2016/09/31",
+    "school": "IAE Clermont-Ferrand",
+    "description": "",
+    "skillsInvolved": [".Net"],
+    "imageURL": "https://www.iae-france.fr/wp-content/uploads/2018/11/20180910-Logo-IAE-FRANCE.png"
+},
+{
+    "id":3,
+    "title": "Software developer",
+    "dateFrom": "2010/09/01",
+    "dateTo": "2013/06/30",
+    "school": "IUT Clermont-Ferrand",
+    "description": "",
+    "skillsInvolved": [".Net"],
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/02/Logo_universit%C3%A9_d%27auvergne_UDA.png"
+}
+]
