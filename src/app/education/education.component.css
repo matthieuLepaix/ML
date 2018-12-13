@@ -1,6 +1,4 @@
 .main{
-    background: #3fb0ac;
-    color: #369693;
     padding: 30px;
     padding-top: 80px;
 }
@@ -9,53 +7,125 @@
     margin: 0 auto;
 }
 
-h1.title{
-    color: #fae596;
-	border-bottom: 1px solid #fae596;
-}
 
-.card{
-    font-size: 120%; 
+.col-4{
+    padding: 15px;
+    margin: 15px auto;
+    font-size: 70%; 
     text-align: justify;
-    margin: 20px;
-    padding: 30px 20px;
-    min-height: 500px;
-    background:#8fd6d4;
-    color: #29706e;
-    box-shadow:0 10px 30px rgba(0,0,0,.3);
-    border-radius: 7px;
-    text-align: justify;
+    border: 1px solid #000033;
+    box-shadow:0 10px 20px rgba(0,0,0,.3);
+    text-align: center;
+    height: 100%;
+    min-width: 90%;
+    max-width: 90%;
 }
 
 .div-card-img-top {
-    margin: 0 auto;
-    height: 30%;
-    vertical-align: middle;
+    height: 100px;
 }
 
 .card-title{
-    text-align: left;
+    text-align: center;
     font-size: 100%;
     width: 100%;
-}
-
-.card-body span i{
-    width: 10%;
-}
-
-.card-title.badge, .card-skills span{
-    background: #29706e;
-    color: #8fd6d4;
+    padding: 5px;
 }
 
 .card-description{
-    margin-top: 10px; 
-    font-size: 80%;
+    margin-top: 15px;
+    text-align: justify;
+    height: auto;
+    font-weight: bold;
 }
 
-.card{
-    height: auto;
+
+.card-skills{
+    height: 60px;
 }
+
+@media (min-width: 576px){
+    
+    .col-4{
+        padding: 5px;
+        margin: 5px auto;
+        font-size: 90%; 
+        text-align: justify;
+        border: 1px solid #000033;
+        box-shadow:0 2px 10px rgba(0,0,0,.3);
+        text-align: center;
+        height: 100%;
+        min-width: 80%;
+        max-width: 80%;
+    }
+
+    .div-card-img-top {
+        height: 150px;
+    }
+    
+    .card-title{
+        text-align: center;
+        font-size: 100%;
+        width: 100%;
+        padding: 10px;
+    }
+    .card-skills{
+        height: 80px;
+    }
+
+}
+
+@media (min-width: 768px){
+    
+    .col-4{
+        padding: 15px;
+        margin: 15px auto;
+        font-size: 100%; 
+        text-align: justify;
+        border: 1px solid #000033;
+        box-shadow:0 10px 20px rgba(0,0,0,.3);
+        text-align: center;
+        height: 100%;
+        min-width: 80%;
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 1200px){
+    
+    .col-4{
+        padding: 15px;
+        margin: 15px auto;
+        font-size: 100%; 
+        text-align: justify;
+        border: 1px solid #000033;
+        box-shadow:0 10px 20px rgba(0,0,0,.3);
+        text-align: center;
+        height: 100%;
+        min-width: 30%;
+        max-width: 30%;
+    }
+    .card-description{
+        margin-top: 15px;
+        text-align: justify;
+        height: 300px;
+        font-weight: bold;
+    }
+}
+
+
+
+.card-body span i{
+    width: 50px;
+}
+
+
+.card-title.badge, .card-skills span{
+    background: whitesmoke;
+    color: #000033;
+    border: 1px solid #000033;
+}
+
 
 .card-skills span{
     margin: 5px;

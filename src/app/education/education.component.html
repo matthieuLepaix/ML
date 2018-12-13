@@ -1,9 +1,9 @@
 <div class="main">
-    <h1 class="title">{{title}}</h1>
+    <h1 class="title"><span>{{title}}</span></h1>
       <div class="row">
         <div *ngFor="let education of educations" 
-            class="card col-md" style="width: 18rem;" >
-          <table class="div-card-img-top" [style.max-width.px]=imageWidth>
+            class="col-4">
+          <table class="div-card-img-top mx-auto" [style.max-width.px]=imageWidth>
             <tr>
               <td>
                 <img class="card-img-top" [src]="education.imageURL"
@@ -18,12 +18,13 @@
             </h6><br>
             <span><i class="fas fa-play-circle"></i>{{education.dateFrom | date :  "dd MMMM y"}}</span><br>
             <span *ngIf="education.dateTo"><i class="fas fa-flag-checkered"></i>{{education.dateTo | date :  "dd MMMM y"}}</span>
-            <p class="card-description" [innerHTML]="education.description"></p>
+            <div class="card-description">
+              <p  [innerHTML]="education.description"></p>
+            </div>
             <div class="card-skills">
               <span *ngFor="let skill of education.skillsInvolved" class="badge" [innerHTML]="skill">
               </span>
             </div>
-            <!-- <a href="#" class="btn btn-primary">Details</a> -->
           </div>
         </div>
       </div>

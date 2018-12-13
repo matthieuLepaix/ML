@@ -1,32 +1,21 @@
-h1.title{
-    color: #fae596;
-	border-bottom: 2px solid #fae596;
+.main{
+    background-color: white;
 }
 
 .img-rounded-circle{
     display: block;
     margin: 10px auto;
-    width: 300px;
-    border: 10px solid #3fb0ac;
+    width: 20%;
+    border: 5px solid #000033;
     border-radius: 50%;
+    box-shadow:0 10px 20px rgba(0,0,0,.3);
 }
 
-.main{
-    background: #3fb0ac;
-}
-
-.card{
-    color: #29706e;
-    padding: 50px 100px;
-    min-height:400px;
-    background:#8fd6d4;
-    box-shadow:0 30px 50px rgba(0,0,0,.3);
-    border-radius: 7px;
+.about-presentation {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
     text-align: justify;
-}
-
-.card p{
-    font-size: 120%; 
 }
 
 .fa-quote-left{
@@ -37,4 +26,20 @@ h1.title{
 .fa-quote-right{
     float: right;
     font-size: 300%;
+}
+
+@media(max-width: 1100px){
+    
+    
+    .img-rounded-circle{
+        width: 40%;
+    }
+}
+
+
+@media(max-width: 500px){
+    
+    .img-rounded-circle{
+        width: 50%;
+    }
 }
