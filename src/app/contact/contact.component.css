@@ -1,18 +1,15 @@
 .main{
-    background-color: #143837;
-    color:#fae596;
+    background-color: white;
     text-align: center;
 }
-
-h1.title{
-    color: #fae596;
-	border-bottom: 1px solid #fae596;
-}
-
 
 .contact-list{
     list-style-type: none;
     margin: 0 auto;
+}
+
+ul{
+    padding: 0 !important;
 }
 
 .contact-list li{
@@ -39,12 +36,32 @@ h1.title{
 }
 
 * a{
-    color: #fae596;
+    color: #000033;
 }
 
 
 * a:hover{
-    color: #f4c10b;
+    color: #0000b3;
     text-decoration: none;
 }
 
+@media(max-width: 1200px){
+
+}
+
+@media(max-width: 1000px){
+    
+}
+
+
+@media(max-width: 800px){
+}
+
+
+@media(max-width: 500px){
+    
+    .contact-list li{
+        margin: 10px 0;
+        font-size: 20px;
+    }
+}
