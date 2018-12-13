@@ -2,7 +2,7 @@
     <h1 class="title"><span>{{title}}</span></h1>
       <div class="row">
         <div *ngFor="let education of educations" 
-            class="card col-sm">
+            class="col-4">
           <table class="div-card-img-top mx-auto" [style.max-width.px]=imageWidth>
             <tr>
               <td>
@@ -21,10 +21,10 @@
             <div class="card-description">
               <p  [innerHTML]="education.description"></p>
             </div>
-            <!-- <div class="card-skills">
+            <div class="card-skills">
               <span *ngFor="let skill of education.skillsInvolved" class="badge" [innerHTML]="skill">
               </span>
-            </div> -->
+            </div>
           </div>
         </div>
       </div>
