@@ -1,0 +1,25 @@
+Environnement 
+Quel Projet
+Moi dans le Projet
+
+<i class="fas fa-arrow-alt-circle-right"></i>
+
+Alfa :
+<li>5 mois</li><li>Equipe de 6 personnes</li><li>Veille technologique sur les technologies du web</li><li>Création d'un prototype d'application web pour une association médicale</li><li>Intégration de template CSS3/JQuery</li>
+
+Michelin 1
+
+<li>10 semaines</li><li>Equipe de 10 personnes en charge des applications de niveau 2 (applications destinés au opérateurs dans les usines) au sein des usines Michelin dans le monde entier</li><li>Amélioration d'applications existantes : améliorer la lisibilité et les performances du code, ajout de nouvelles fonctionnalités</li><li>Mon travail a été déployé en chine peu après la fin de mon stage</li>
+
+CSIRO
+<li>4 mois</li><li>Equipe de 4 personnes composée de mathématiciens et statisticiens</li><li>Projet conséquent dont le but était d'optimiser le cycle de vie des pneumatiques des companies minières afin d'augmenter la rentabilité des pneumatiques.</li><li>Création d'un ETL permettant d'extraire les données et de les intégrer en base de données (Java, SQL SERVER 2012)</li><li>Analyse des données, régression linéaire afin de trouver des axes d'optimisation (R)</li><li>Création de moteur de simulation (C++, multiprocessing, cross-entropy methods)</li>
+
+Michelin 2 :
+<li>6 mois</li><li>Equipe de 8 personnes mais travail transverse au sein de Michelin</li><li>Etude d'amélioration de la gestion de la connaissance</li><li>Optimisation de processus métier (modélisation, UML)</li><li>Création de mini outil informatique pour aider le travail quotidien des personnes travaillant sur la conception des pneumatiques (VB, Excel)</li><li>Lancement d'un logiciel interne : formation utilisateur, réalisation d'un guide utilisateur</li><li>Création d'un outil d'analyse de données (Jupyter notebook, anaconda, python)</li>
+
+Sopra Steria
+<li>2 ans</li><li>Equipe de 40 personnes en charge des outils informatiques permettant le déploiement et la maintenance des compteurs de gaz connectés (GrDF)</li><li>Référent de la partie mobilité (3 personnes)</li><li>Analyse conceptuelle des besoins, macro-chiffrage et chiffrage des évolutions à apporter, argumentation/négociation des chiffrages auprès du client (architectes techniques)</li><li>Developpement des nouvelles fonctionnalités, Mise en place des stratégie de déploiement mobile (MDM)</li><li>Analyse et correction des anomalies</li><li>Revue de code
+</li><li>Gestion de l'intégration continue avec Jenkins</li>
+
+Cision
+<li>Emploi actuel</li><li>Equipe de 10 personnes en charge du développement d'Eureka et Europresse</li><li>Méthode AGILE Scrum complète</li><li>Développement de nouvelles fonctionnalités</li><li>Mise en place d'un serveur d'authentification (Identity Server)</li><li>Travail sur la mise en place d'un serveur Redis avec Sentinel, monitoring créé avec Kibana</li><li>Analyse et correction des anomalies</li>
