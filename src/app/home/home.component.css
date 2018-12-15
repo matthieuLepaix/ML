@@ -152,6 +152,6 @@ h3{
 
 @media(max-width: 400px){
     .main{
-        height: 640px;
+        height: 800px;
     }
 }

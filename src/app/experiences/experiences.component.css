@@ -41,7 +41,11 @@
 
 
 .card-skills{
-    height: 60px;
+    height: 80px;
+}
+
+.exp-dates{
+    height: 45px;
 }
 
 @media (min-width: 576px){
@@ -70,8 +74,9 @@
         padding: 10px;
     }
     .card-skills{
-        height: 80px;
+        height: 100px;
     }
+    
 
 }
 

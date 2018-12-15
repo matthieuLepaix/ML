@@ -3,7 +3,7 @@
     "id":0,
     "title": "Fullstack .Net Developer",
     "dateFrom": "2018/10/15",
-    "dateTo": "2018/12/20",
+    "dateTo": "",
     "firm": "Cision",
     "description":
     ["Emploi actuel","Equipe de 10 personnes en charge du développement d'Eureka et Europresse","Méthode AGILE Scrum complète","Développement de nouvelles fonctionnalités","Mise en place d'un serveur d'authentification (Identity Server)","Travail sur la mise en place d'un serveur Redis avec Sentinel, monitoring créé avec Kibana","Analyse et correction des anomalies"],

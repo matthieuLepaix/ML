@@ -16,8 +16,10 @@
             <i class="fas fa-user-circle"></i>
             {{exp.title}}
           </h6><br>
-          <span><i class="fas fa-play-circle"></i>{{exp.dateFrom | date :  "dd MMMM y"}}</span><br>
-          <span ><i class="fas fa-flag-checkered"></i>{{exp.dateTo | date :  "dd MMMM y"}}</span>
+          <div class="exp-dates">
+            <span><i class="fas fa-play-circle"></i>{{exp.dateFrom | date :  "dd MMMM y"}}</span><br>
+            <span *ngIf="exp.dateTo" ><i class="fas fa-flag-checkered"></i>{{exp.dateTo | date :  "dd MMMM y"}}</span>
+          </div>
           <div class="card-description">
             <ul><li *ngFor="let desc of exp.description"><i class="fas fa-arrow-alt-circle-right"></i>{{desc}}</li></ul>
           </div>
