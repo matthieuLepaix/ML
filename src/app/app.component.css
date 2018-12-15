@@ -17,6 +17,9 @@
 .navbar .nav li a{
     color: #f7f7f7;
 }
+.navbar .nav li.active{
+    border-bottom: 4px solid rgba(247,247,247, 0.9);
+}
 
 .nav-link-content{
     margin-left: 5px;

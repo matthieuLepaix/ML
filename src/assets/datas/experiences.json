@@ -5,8 +5,9 @@
     "dateFrom": "2018/10/15",
     "dateTo": "2018/12/20",
     "firm": "Cision",
-    "description":"Description du poste",
-    "skillsInvolved": ["<i class=\"fab fa-windows\"></i> .Net Framework",".Net Core", "ASP.Net","ElasticSearch","Redis","<i class=\"fab fa-angular\"></i> Angular"],
+    "description":
+    ["Emploi actuel","Equipe de 10 personnes en charge du développement d'Eureka et Europresse","Méthode AGILE Scrum complète","Développement de nouvelles fonctionnalités","Mise en place d'un serveur d'authentification (Identity Server)","Travail sur la mise en place d'un serveur Redis avec Sentinel, monitoring créé avec Kibana","Analyse et correction des anomalies"],
+    "skillsInvolved": ["<i class=\"fab fa-windows\"></i> .Net Framework",".Net Core", "ASP.Net","ElasticSearch","Redis","<i class=\"fab fa-angular\"></i> Angular","<i class=\"fab fa-html5\"></i> HTML5", "<i class=\"fab fa-css3-alt\"></i> CSS3", "<i class=\"fab fa-js\"></i> Javascript"],
     "imageURL": "https://logos-download.com/wp-content/uploads/2018/09/Cision_Logo.png"
 },
 {
@@ -15,7 +16,7 @@
     "dateFrom": "2016/10/17",
     "dateTo": "2018/10/4",
     "firm": "Sopra Steria Group",
-    "description": "<ul><li>Build and maintain 6 mobile apps</li><li>Carry out the continuous integration</li><li>Technically lead the team</li></ul>",
+    "description": ["2 ans","Equipe de 40 personnes en charge des outils informatiques permettant le déploiement et la maintenance des compteurs de gaz connectés (GrDF)","Référent de la partie mobilité (3 personnes)","Analyse conceptuelle des besoins, macro-chiffrage et chiffrage des évolutions à apporter, argumentation/négociation des chiffrages auprès du client (architectes techniques)","Developpement des nouvelles fonctionnalités, Mise en place des stratégie de déploiement mobile (MDM)","Analyse et correction des anomalies","Revue de code","Gestion de l'intégration continue avec Jenkins"],
     "skillsInvolved": ["<i class=\"fab fa-windows\"></i> .Net","UWP","Windows Mobile 6.5", "Web Services", "Citrix MDM", "<i class=\"fab fa-android\"></i> Android", "<i class=\"fab fa-jenkins\"></i> Jenkins" ],
     "imageURL": "https://www.miage.net/wp-content/uploads/2015/02/SOPRASTERIA_logo.png"
 },
@@ -25,7 +26,7 @@
     "dateFrom": "2016/4/1",
     "dateTo": "2016/9/31",
     "firm": "Michelin",
-    "description": "The aim was to improve the company transformation (agility) via a better synergy of company fundamentals: datas, business rules, processus and applications.",
+    "description": ["6 mois","Equipe de 8 personnes mais travail transverse au sein de Michelin","Etude d'amélioration de la gestion de la connaissance","Optimisation de processus métier (modélisation, UML)","Création de mini outil informatique pour aider le travail quotidien des personnes travaillant sur la conception des pneumatiques (VB, Excel)","Lancement d'un logiciel interne : formation utilisateur, réalisation d'un guide utilisateur","Création d'un outil d'analyse de données (Jupyter notebook, anaconda, python)"],
     "skillsInvolved": ["<i class=\"fab fa-python\"></i> Python","SCRUM","Knowledge Management"],
     "imageURL": "https://www.trefle-lozerien-amv.com/wp-content/uploads/2018/05/michelin.png"
 },
@@ -35,8 +36,8 @@
     "dateFrom": "2015/4/15",
     "dateTo": "2015/8/15",
     "firm": "CSIRO",
-    "description": "<ul><li>Optimisation of tyre life cycle management : enhance the productivity in the mines seeking out improvements in the tyre management.</li><li>Built an ETL (csv data)</li><li>Analyse the data (data mining and reporting)</li><li>optimisation methods (cross-entropy)</li><li>Built a simulation engine</li></ul>",
-    "skillsInvolved": ["Java","MS SQL Server","R","C++","Multiprocessing"],
+    "description": ["4 mois","Equipe de 4 personnes composée de mathématiciens et statisticiens","Projet conséquent dont le but était d'optimiser le cycle de vie des pneumatiques des companies minières afin d'augmenter la rentabilité des pneumatiques.","Création d'un ETL permettant d'extraire les données et de les intégrer en base de données (Java, SQL SERVER 2012)","Analyse des données, régression linéaire afin de trouver des axes d'optimisation (R)","Création de moteur de simulation (C++, multiprocessing, cross-entropy methods)"],
+    "skillsInvolved": ["<i class=\"fab fa-java\"></i> Java","MS SQL Server","R","C++","Multiprocessing"],
     "imageURL": "https://www.data61.csiro.au/~/media/Web-team/Images/CSIRO_Logo/data61-logo.png?mw=90&hash=019CFF41AF466E54B0B285CB0291F7D9A178DC6E"
 },
 {
@@ -45,7 +46,7 @@
     "dateFrom": "2013/04/01",
     "dateTo": "2013/06/06",
     "firm": "Michelin",
-    "description": "<ul><li>Applications N2 diagnostic</li></ul><p>improvement of the machines in Michelin factories. I worked on an existing program which I had to enhance the quality of the code, add some fonctionalities and make it more robust.</p>",
+    "description": ["10 semaines","Equipe de 10 personnes en charge des applications de niveau 2 (applications destinés au opérateurs dans les usines) au sein des usines Michelin dans le monde entier","Amélioration d'applications existantes : améliorer la lisibilité et les performances du code, ajout de nouvelles fonctionnalités","Mon travail a été déployé en chine peu après la fin de mon stage"],
     "skillsInvolved": ["C#",".Net Framework","Oracle SQL Developer"],
     "imageURL": "https://www.trefle-lozerien-amv.com/wp-content/uploads/2018/05/michelin.png"
 },
@@ -55,8 +56,8 @@
     "dateFrom": "2013/03/01",
     "dateTo": "2013/08/01",
     "firm": "Cegi Alfa",
-    "description": "<ul><li>Technological surveillance on new web technologies</li></ul><p>determine the possibilites, the limits, the advantages and the drawbacks of some new web technologies. I built a web application to manage patients. I integrated a theme which was bought by the company.</p>",
-    "skillsInvolved": ["HTML5", "CSS3", "Javascript", "JQuery", "Less", "Knockout"],
+    "description": ["5 mois","Equipe de 6 personnes","Veille technologique sur les technologies du web","Création d'un prototype d'application web pour une association médicale","Intégration de template CSS3/JQuery"],
+    "skillsInvolved": ["<i class=\"fab fa-html5\"></i> HTML5", "<i class=\"fab fa-css3-alt\"></i> CSS3", "<i class=\"fab fa-js\"></i> Javascript", "JQuery", "Less", "Knockout"],
     "imageURL": "http://www.cegialfa.fr/templates/assets/images/logo-cegi-alfa.jpg"
 }
 ]

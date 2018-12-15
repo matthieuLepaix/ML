@@ -55,6 +55,9 @@ ul{
 
 
 @media(max-width: 800px){
+    .main{
+        min-height: 600px;
+    }
 }
 
 
@@ -63,5 +66,13 @@ ul{
     .contact-list li{
         margin: 10px 0;
         font-size: 20px;
+    }
+}
+
+@media(max-width: 400px){
+    
+    .contact-list li{
+        margin:5px 0;
+        font-size: 15px;
     }
 }

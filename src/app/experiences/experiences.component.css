@@ -94,7 +94,7 @@
 @media (min-width: 1200px){
     
     .col-4{
-        padding: 15px;
+        padding: 10px;
         margin: 15px auto;
         font-size: 100%; 
         text-align: justify;
@@ -108,7 +108,7 @@
     .card-description{
         margin-top: 15px;
         text-align: justify;
-        height: 300px;
+        height: 450px;
         font-weight: bold;
     }
 }
@@ -130,4 +130,15 @@
 .card-skills span{
     margin: 5px;
     font-size: 100%;
+}
+
+.card-description ul{
+    list-style: none;
+    margin-left: -30px;
+    font-weight: lighter;
+}
+
+.card-description ul li i{
+    margin-right: 7px;
+    margin-bottom: 10px;
 }

@@ -19,7 +19,7 @@
           <span><i class="fas fa-play-circle"></i>{{exp.dateFrom | date :  "dd MMMM y"}}</span><br>
           <span ><i class="fas fa-flag-checkered"></i>{{exp.dateTo | date :  "dd MMMM y"}}</span>
           <div class="card-description">
-            <p  [innerHTML]="exp.description"></p>
+            <ul><li *ngFor="let desc of exp.description"><i class="fas fa-arrow-alt-circle-right"></i>{{desc}}</li></ul>
           </div>
           <div class="card-skills">
             <span *ngFor="let skill of exp.skillsInvolved" class="badge" [innerHTML]="skill">
