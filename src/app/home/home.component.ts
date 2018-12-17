@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  windowHeight: number;
+
   constructor() { }
 
   ngOnInit() {
+    this.windowHeight = window.innerHeight;
   }
 
 }

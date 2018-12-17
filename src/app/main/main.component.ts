@@ -9,7 +9,7 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 export class MainComponent implements OnInit {
   title = 'Matthieu Lepaix';
   lang: string;
-
+  
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
