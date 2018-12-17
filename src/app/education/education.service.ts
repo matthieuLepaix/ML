@@ -8,13 +8,16 @@ import { HttpClient } from "@angular/common/http";
 })
 export class EducationService {
 
-    dataUrl = "assets/datas/educations.json";
-
+    lang: string;
     constructor(private http: HttpClient) {
 
     }
 
-    getExperiences(): Observable<Education[]> {
-        return this.http.get<Education[]>(this.dataUrl);
+    getExperiences(lang: string): Observable<Education[]> {
+        this.lang = lang;
+        if(this.lang === ''){
+            this.lang = 'en';
+        }
+        return this.http.get<Education[]>(`assets/datas/educations_${this.lang}.json`);
     }
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Experience } from './experience';
 import { ExperiencesService } from './experiences.service';
 
@@ -11,15 +11,19 @@ export class ExperiencesComponent implements OnInit {
 
   imageWidth: number = 200;
   title:string = "Experiences";
+  
+  @Input('langToDisplay') lang: string;
+
+
 
   experiences: Experience[];
 
   constructor(private service: ExperiencesService) { }
 
   ngOnInit() {
-    this.service.getExperiences().subscribe(
+    this.service.getExperiences(this.lang).subscribe(
       data => this.experiences = data
-    );
+    )
   }
 
 }

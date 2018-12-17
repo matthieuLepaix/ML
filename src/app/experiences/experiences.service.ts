@@ -7,14 +7,24 @@ import { HttpClient } from "@angular/common/http";
     providedIn: 'root'
 })
 export class ExperiencesService {
-
-    dataUrl = "assets/datas/experiences.json";
+    lang: string;
 
     constructor(private http: HttpClient) {
 
     }
 
-    getExperiences(): Observable<Experience[]> {
-        return this.http.get<Experience[]>(this.dataUrl);
+    getExperiences(lang: string): Observable<Experience[]> {
+        this.lang = lang;
+        // if(this.lang == ''){
+        //     this.lang = 'empty';
+        // }
+        // if(this.lang == 'en'){
+        //     this.lang = 'english';
+        // }
+        // if(this.lang == 'fr'){
+        //     this.lang = 'french';
+        // }
+        
+        return this.http.get<Experience[]>(`assets/datas/experiences_${this.lang}.json`);
     }
 }

@@ -7,7 +7,7 @@
     "firm": "Cision",
     "description":
     ["Emploi actuel","Equipe de 10 personnes en charge du développement d'Eureka et Europresse","Méthode AGILE Scrum complète","Développement de nouvelles fonctionnalités","Mise en place d'un serveur d'authentification (Identity Server)","Travail sur la mise en place d'un serveur Redis avec Sentinel, monitoring créé avec Kibana","Analyse et correction des anomalies"],
-    "skillsInvolved": ["<i class=\"fab fa-windows\"></i> .Net Framework",".Net Core", "ASP.Net","ElasticSearch","Redis","<i class=\"fab fa-angular\"></i> Angular","<i class=\"fab fa-html5\"></i> HTML5", "<i class=\"fab fa-css3-alt\"></i> CSS3", "<i class=\"fab fa-js\"></i> Javascript"],
+    "skillsInvolved": ["<i class=\"fab fa-windows\"></i> .Net Framework",".Net Core", "ASP.Net","ElasticSearch","Redis","<i class=\"fab fa-angular\"></i> Angular","<i class=\"fab fa-html5\"></i> HTML5", "<i class=\"fab fa-css3-alt\"></i> CSS3", "<i class=\"fab fa-js\"></i> Javascript","Git","Bitbucket","Jira"],
     "imageURL": "https://logos-download.com/wp-content/uploads/2018/09/Cision_Logo.png"
 },
 {
@@ -17,7 +17,7 @@
     "dateTo": "2018/10/4",
     "firm": "Sopra Steria Group",
     "description": ["2 ans","Equipe de 40 personnes en charge des outils informatiques permettant le déploiement et la maintenance des compteurs de gaz connectés (GrDF)","Référent de la partie mobilité (3 personnes)","Analyse conceptuelle des besoins, macro-chiffrage et chiffrage des évolutions à apporter, argumentation/négociation des chiffrages auprès du client (architectes techniques)","Developpement des nouvelles fonctionnalités, Mise en place des stratégie de déploiement mobile (MDM)","Analyse et correction des anomalies","Revue de code","Gestion de l'intégration continue avec Jenkins"],
-    "skillsInvolved": ["<i class=\"fab fa-windows\"></i> .Net","UWP","Windows Mobile 6.5", "Web Services", "Citrix MDM", "<i class=\"fab fa-android\"></i> Android", "<i class=\"fab fa-jenkins\"></i> Jenkins" ],
+    "skillsInvolved": ["<i class=\"fab fa-windows\"></i> .Net","UWP","Windows Mobile 6.5", "Web Services", "Citrix MDM", "<i class=\"fab fa-android\"></i> Android", "<i class=\"fab fa-jenkins\"></i> Jenkins","Git","SVN","Jira"],
     "imageURL": "https://www.miage.net/wp-content/uploads/2015/02/SOPRASTERIA_logo.png"
 },
 {
@@ -27,7 +27,7 @@
     "dateTo": "2016/9/31",
     "firm": "Michelin",
     "description": ["6 mois","Equipe de 8 personnes mais travail transverse au sein de Michelin","Etude d'amélioration de la gestion de la connaissance","Optimisation de processus métier (modélisation, UML)","Création de mini outil informatique pour aider le travail quotidien des personnes travaillant sur la conception des pneumatiques (VB, Excel)","Lancement d'un logiciel interne : formation utilisateur, réalisation d'un guide utilisateur","Création d'un outil d'analyse de données (Jupyter notebook, anaconda, python)"],
-    "skillsInvolved": ["<i class=\"fab fa-python\"></i> Python","SCRUM","Knowledge Management"],
+    "skillsInvolved": ["<i class=\"fab fa-python\"></i> Python","SCRUM","Knowledge Management","UML","Data analysis","Dr.Explain","VB","Excel"],
     "imageURL": "https://www.trefle-lozerien-amv.com/wp-content/uploads/2018/05/michelin.png"
 },
 {
