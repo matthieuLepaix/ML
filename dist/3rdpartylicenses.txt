@@ -266,9 +266,6 @@ Apache-2.0
 @angular/core
 MIT
 
-@angular/animations
-MIT
-
 @angular/common
 MIT
 
