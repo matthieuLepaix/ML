@@ -1,0 +1,10 @@
+ISIMA
+"Algorithmie","Administration de base de données","Développement SQL","Simulation à flux discret","Analyse et fouille de données","Aide à la décision","Recherche opérationnelle","Développement mobile Android","Intelligence d'affaires"","Big Data"
+
+
+MAE
+"Gestion d'équipe","Communication ","Comptabilité, Contrôle de gestion","Intrapreunariat","Marketing","Commercial, négociation
+","Droit des affaires"
+
+IUT
+"Algorithmie","Programmation orientée objet","Patron de conception Gang of Four ","Modélisation : UML, MERISE, SADT","Langages de programmation logiciel, web : C, C++, Java, C#/WPF, PHP, HTML/CSS/Javascript, XML/XSD/XSLT, SQL, PL/SQL","Projets en groupe de 2, 3 et 5 personnes"

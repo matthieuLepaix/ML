@@ -8,15 +8,15 @@ $(function () {
     topMenuHeight = $(".navbar").outerHeight()+1,
     // All list items
     menuItems = topMenu.find("a"),
+    currentLang = $(menuItems[1]).attr("href").substring(0,2),
     // Anchors corresponding to menu items
     scrollItems = menuItems.map(function(){
-      var item = $($(this).attr("href"));
+      var item = $($(this).attr("href").substring(2));
         if (item.length) { return item; }
     });
 
     // Bind to scroll
     $(window).scroll(function(){
-      
       var $nav = $(".navbar");
       $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 
@@ -37,7 +37,7 @@ $(function () {
           // Set/remove active class
           menuItems
             .parent().removeClass("active")
-            .end().filter("[href=\"#"+id+"\"]").parent().addClass("active");
+            .end().filter("[href=\""+currentLang+"#"+id+"\"]").parent().addClass("active");
       }                   
     });
 
