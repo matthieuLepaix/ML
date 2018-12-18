@@ -41,7 +41,7 @@ ul img {
 }
 
 h1{
-    text-indent: -45px;
+    text-indent: -60px;
     overflow: hidden;
 }
 
@@ -52,6 +52,7 @@ h1{
 
     h1 {
         font-size: 30px;
+        text-indent: -45px;
     }
 }
 
