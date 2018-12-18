@@ -7,9 +7,9 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
-  title = 'Matthieu Lepaix';
+  title = 'ML   Matthieu Lepaix';
   lang: string;
-  
+
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {

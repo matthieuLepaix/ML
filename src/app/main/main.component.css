@@ -40,6 +40,11 @@ ul img {
     height: 40px; 
 }
 
+h1{
+    text-indent: -45px;
+    overflow: hidden;
+}
+
 @media(max-width: 1200px){
     ul {
         font-size: 15px;
@@ -54,6 +59,7 @@ ul img {
 
     h1 {
         font-size: 20px;
+        text-indent: -30px;
     }
 
     ul {
@@ -76,6 +82,7 @@ ul img {
 @media(max-width: 800px){
     h1 {
         font-size: 25px;
+        text-indent: -35px;
     }
 
     ul{
@@ -93,12 +100,25 @@ ul img {
 }
 
 
-@media(max-width: 530px){
-    h1{
-        display: none;
+@media(max-width: 600px){
+    h1 {
+        display: inline-block;
+        width: 50px;
+        height: 30px;
+        font-size: 30px;
+        text-indent: 0px;
     }
+}
 
+@media(max-width: 530px){
     ul{
         margin: 0 auto;
+    }
+}
+
+
+@media(max-width: 400px){
+    h1{
+        display: none;
     }
 }
