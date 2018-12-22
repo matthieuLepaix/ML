@@ -6,7 +6,7 @@
     "dateTo": "",
     "firm": "Cision",
     "description":
-    ["Emploi actuel","Equipe de 10 personnes en charge du développement d'Eureka et Europresse","Méthode AGILE Scrum complète","Développement de nouvelles fonctionnalités","Mise en place d'un serveur d'authentification (Identity Server)","Travail sur la mise en place d'un serveur Redis avec Sentinel, monitoring créé avec Kibana","Analyse et correction des anomalies"],
+    ["Current job","10-persons' team in charge of the development of Eureka and Europresse","Complete AGILE Scrum method","New features development","Setting up of a authentication server (Identity Server)","Work on the set up of a Redis server with Sentinel, monitoring with Kibana","Defects analysis and fixing"],
     "skillsInvolved": ["<i class=\"fab fa-windows\"></i> .Net Framework",".Net Core", "ASP.Net","ElasticSearch","Redis","<i class=\"fab fa-angular\"></i> Angular","<i class=\"fab fa-html5\"></i> HTML5", "<i class=\"fab fa-css3-alt\"></i> CSS3", "<i class=\"fab fa-js\"></i> Javascript","Git","Bitbucket","Jira"],
     "imageURL": "https://logos-download.com/wp-content/uploads/2018/09/Cision_Logo.png"
 },
@@ -16,7 +16,7 @@
     "dateFrom": "2016/10/17",
     "dateTo": "2018/10/4",
     "firm": "Sopra Steria Group",
-    "description": ["2 ans","Equipe de 40 personnes en charge des outils informatiques permettant le déploiement et la maintenance des compteurs de gaz connectés (GrDF)","Référent de la partie mobilité (3 personnes)","Analyse conceptuelle des besoins, macro-chiffrage et chiffrage des évolutions à apporter, argumentation/négociation des chiffrages auprès du client (architectes techniques)","Developpement des nouvelles fonctionnalités, Mise en place des stratégie de déploiement mobile (MDM)","Analyse et correction des anomalies","Revue de code","Gestion de l'intégration continue avec Jenkins"],
+    "description": ["2 years","40-persons' team in charge of developping the software that help to deploy the smart gaz meter in France","Technical leader of the mobile development team","Needs analysis, macro-costing and costing of new features, Costing argumentation to the client (technical architects)","New features development","Defects analysis and fixing","Code reviews","Continuous integration handled with Jenkins"],
     "skillsInvolved": ["<i class=\"fab fa-windows\"></i> .Net","UWP","Windows Mobile 6.5", "Web Services", "Citrix MDM", "<i class=\"fab fa-android\"></i> Android", "<i class=\"fab fa-jenkins\"></i> Jenkins","Git","SVN","Jira"],
     "imageURL": "https://www.miage.net/wp-content/uploads/2015/02/SOPRASTERIA_logo.png"
 },
