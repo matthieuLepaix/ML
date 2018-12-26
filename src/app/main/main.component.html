@@ -9,22 +9,29 @@
           <li class="nav-item">
             <a class="nav-link" href="{{lang}}#about-area">
               <i class="fas fa-feather-alt"></i>
-              <span class="nav-link-content">About me</span></a>
+              <span *ngIf="lang === 'en'" class="nav-link-content">About me</span>
+              <span *ngIf="lang === 'fr'" class="nav-link-content">A propos</span>
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{lang}}#experiences-area" >
               <i class="fas fa-laptop-code"></i>
-              <span class="nav-link-content">Experiences</span></a>
+              <span *ngIf="lang === 'en'" class="nav-link-content">Experiences</span>
+              <span *ngIf="lang === 'fr'" class="nav-link-content">Expériences</span>
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{lang}}#education-area">
               <i class="fas fa-graduation-cap"></i>
-              <span class="nav-link-content">Education</span></a>
+              <span *ngIf="lang === 'en'" class="nav-link-content">Education</span>
+              <span *ngIf="lang === 'fr'" class="nav-link-content">Formation</span>
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{lang}}#contact-area">
               <i class="fas fa-at"></i>
-              <span class="nav-link-content">Contact</span></a>
+              <span class="nav-link-content">Contact</span>
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-link-lang" href="fr">

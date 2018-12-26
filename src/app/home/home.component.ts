@@ -14,5 +14,4 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.windowHeight = window.innerHeight;
   }
-
 }

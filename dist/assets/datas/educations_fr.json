@@ -1,7 +1,7 @@
 [
 {
     "id":0,
-    "title": "Engineering - Software engineer",
+    "title": "Ingénieur - Ingénieur logiciel",
     "dateFrom": "2013/09/01",
     "dateTo": "2016/09/30",
     "school": "ISIMA",
@@ -11,7 +11,7 @@
 },
 {
     "id":1,
-    "title": "Master - Business management",
+    "title": "Master - MAE",
     "dateFrom": "2015/09/15",
     "dateTo": "2016/09/30",
     "school": "IAE Clermont-Ferrand",
@@ -21,7 +21,7 @@
 },
 {
     "id":2,
-    "title": "Software developer",
+    "title": "Développeur logiciel",
     "dateFrom": "2010/09/01",
     "dateTo": "2013/06/30",
     "school": "IUT Clermont-Ferrand",

@@ -19,6 +19,12 @@ export class EducationComponent implements OnInit {
   constructor(private service: EducationService) { }
 
   ngOnInit() {
+    if(this.lang === 'fr'){
+      this.title = "Formation";
+    }else{
+      this.title = "Education"
+    }
+
     this.service.getExperiences(this.lang).subscribe(
       data => this.educations = data
     );

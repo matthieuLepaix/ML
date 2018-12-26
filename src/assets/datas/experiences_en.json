@@ -6,7 +6,7 @@
     "dateTo": "",
     "firm": "Cision",
     "description":
-    ["Emploi actuel","Equipe de 10 personnes en charge du développement d'Eureka et Europresse","Méthode AGILE Scrum complète","Développement de nouvelles fonctionnalités","Mise en place d'un serveur d'authentification (Identity Server)","Travail sur la mise en place d'un serveur Redis avec Sentinel, monitoring créé avec Kibana","Analyse et correction des anomalies"],
+    ["Current job","Team (10 persons) in charge of the development of Eureka and Europresse","Complete AGILE Scrum method","New features development","Setting up of a authentication server (Identity Server)","Work on the set up of a Redis server with Sentinel, monitoring with Kibana","Defects analysis and fixing"],
     "skillsInvolved": ["<i class=\"fab fa-windows\"></i> .Net Framework",".Net Core", "ASP.Net","ElasticSearch","Redis","<i class=\"fab fa-angular\"></i> Angular","<i class=\"fab fa-html5\"></i> HTML5", "<i class=\"fab fa-css3-alt\"></i> CSS3", "<i class=\"fab fa-js\"></i> Javascript","Git","Bitbucket","Jira"],
     "imageURL": "https://logos-download.com/wp-content/uploads/2018/09/Cision_Logo.png"
 },
@@ -16,7 +16,7 @@
     "dateFrom": "2016/10/17",
     "dateTo": "2018/10/4",
     "firm": "Sopra Steria Group",
-    "description": ["2 ans","Equipe de 40 personnes en charge des outils informatiques permettant le déploiement et la maintenance des compteurs de gaz connectés (GrDF)","Référent de la partie mobilité (3 personnes)","Analyse conceptuelle des besoins, macro-chiffrage et chiffrage des évolutions à apporter, argumentation/négociation des chiffrages auprès du client (architectes techniques)","Developpement des nouvelles fonctionnalités, Mise en place des stratégie de déploiement mobile (MDM)","Analyse et correction des anomalies","Revue de code","Gestion de l'intégration continue avec Jenkins"],
+    "description": ["2 years","Team (40 persons) in charge of developping the software that help to deploy the smart gaz meter in France","Technical leader of the mobile development team","Needs analysis, macro-costing and costing of new features, Costing argumentation to the client (technical architects)","New features development","Defects analysis and fixing","Code reviews","Continuous integration handled with Jenkins"],
     "skillsInvolved": ["<i class=\"fab fa-windows\"></i> .Net","UWP","Windows Mobile 6.5", "Web Services", "Citrix MDM", "<i class=\"fab fa-android\"></i> Android", "<i class=\"fab fa-jenkins\"></i> Jenkins","Git","SVN","Jira"],
     "imageURL": "https://www.miage.net/wp-content/uploads/2015/02/SOPRASTERIA_logo.png"
 },
@@ -26,7 +26,7 @@
     "dateFrom": "2016/4/1",
     "dateTo": "2016/9/31",
     "firm": "Michelin",
-    "description": ["6 mois","Equipe de 8 personnes mais travail transverse au sein de Michelin","Etude d'amélioration de la gestion de la connaissance","Optimisation de processus métier (modélisation, UML)","Création de mini outil informatique pour aider le travail quotidien des personnes travaillant sur la conception des pneumatiques (VB, Excel)","Lancement d'un logiciel interne : formation utilisateur, réalisation d'un guide utilisateur","Création d'un outil d'analyse de données (Jupyter notebook, anaconda, python)"],
+    "description": ["6 months","Team of 8 business analysts but transversal works (with several other people) within Michelin","Enhancement studying of knowledge management","Business processes optimisation (conception, UML)","Creation of small software (Quick-wins) for helping daily work of tires conception workers (VB, Excel)","Internal software launching : users training, user guide creation","Building of a data analysis tool (Jupyter notebook, anaconda, python)"],
     "skillsInvolved": ["<i class=\"fab fa-python\"></i> Python","SCRUM","Knowledge Management","UML","Data analysis","Dr.Explain","VB","Excel"],
     "imageURL": "https://www.trefle-lozerien-amv.com/wp-content/uploads/2018/05/michelin.png"
 },
@@ -36,7 +36,7 @@
     "dateFrom": "2015/4/15",
     "dateTo": "2015/8/15",
     "firm": "CSIRO",
-    "description": ["4 mois","Equipe de 4 personnes composée de mathématiciens et statisticiens","Projet conséquent dont le but était d'optimiser le cycle de vie des pneumatiques des companies minières afin d'augmenter la rentabilité des pneumatiques.","Création d'un ETL permettant d'extraire les données et de les intégrer en base de données (Java, SQL SERVER 2012)","Analyse des données, régression linéaire afin de trouver des axes d'optimisation (R)","Création de moteur de simulation (C++, multiprocessing, cross-entropy methods)"],
+    "description": ["4 months","Team of mathematicians and statisticians (4 researchers)","The project aimed to enhance the tires life-cycle management of mining firms in order to rise the tires profitability.","ETL (Extract-Transform-Load data) building (Java, SQL SERVER 2012)","Dataanalysis, linear regression to find enhancement axis (R)","Simulation engine creation (C++, multiprocessing, cross-entropy methods)"],
     "skillsInvolved": ["<i class=\"fab fa-java\"></i> Java","MS SQL Server","R","C++","Multiprocessing"],
     "imageURL": "https://www.data61.csiro.au/~/media/Web-team/Images/CSIRO_Logo/data61-logo.png?mw=90&hash=019CFF41AF466E54B0B285CB0291F7D9A178DC6E"
 },
@@ -46,7 +46,7 @@
     "dateFrom": "2013/04/01",
     "dateTo": "2013/06/06",
     "firm": "Michelin",
-    "description": ["10 semaines","Equipe de 10 personnes en charge des applications de niveau 2 (applications destinés au opérateurs dans les usines) au sein des usines Michelin dans le monde entier","Amélioration d'applications existantes : améliorer la lisibilité et les performances du code, ajout de nouvelles fonctionnalités","Mon travail a été déployé en chine peu après la fin de mon stage"],
+    "description": ["10 weeks","Team (10 persons) in charge of Level 2 applications (applications intended to factories workers) within Michelin factories all around the world","Existing application refactoring : lisibility and performance enhancement, new features development","My work has been deployedin China just after the end of my internship"],
     "skillsInvolved": ["C#",".Net Framework","Oracle SQL Developer"],
     "imageURL": "https://www.trefle-lozerien-amv.com/wp-content/uploads/2018/05/michelin.png"
 },
@@ -56,7 +56,7 @@
     "dateFrom": "2013/03/01",
     "dateTo": "2013/08/01",
     "firm": "Cegi Alfa",
-    "description": ["5 mois","Equipe de 6 personnes","Veille technologique sur les technologies du web","Création d'un prototype d'application web pour une association médicale","Intégration de template CSS3/JQuery"],
+    "description": ["5 months","Team of 6 persons","Web technologies monitoring","Buiding of a web application prototype intended to a medical association","Template integration (CSS3/JQuery)"],
     "skillsInvolved": ["<i class=\"fab fa-html5\"></i> HTML5", "<i class=\"fab fa-css3-alt\"></i> CSS3", "<i class=\"fab fa-js\"></i> Javascript", "JQuery", "Less", "Knockout"],
     "imageURL": "http://www.cegialfa.fr/templates/assets/images/logo-cegi-alfa.jpg"
 }
