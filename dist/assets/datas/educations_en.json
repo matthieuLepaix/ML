@@ -7,7 +7,7 @@
     "school": "ISIMA",
     "description":["Algorithms","Database administration","SQL development","Discret flow simulation","Data analysis", "Data mining","Aide à la décision","Operational research","Android development","Business intelligence","Big Data"],
     "skillsInvolved": ["C","C++","Java/J2E","PHP/Laravel","Hadoop","Android","Talend/Business object/WEKA","SAS","ERP/Qualiac/SAP",""],
-    "imageURL": "https://lucbabut.files.wordpress.com/2016/05/isima.png"
+    "imageURL": "assets/datas/img/Isima_logo.png"
 },
 {
     "id":1,
@@ -17,7 +17,7 @@
     "school": "IAE Clermont-Ferrand",
     "description": ["Team management","Communication ","Accounting, Financial control","Entrepreneurship", "Strategy","Marketing","worldwide business, negotiation","Business right"],
     "skillsInvolved": ["Excel", "Market survey", "BCG Matrix","McKinsey Matrix","SWOT Matrix","PESTEL Method","Porter's forces"],
-    "imageURL": "https://www.iae-france.fr/wp-content/uploads/2018/11/20180910-Logo-IAE-FRANCE.png"
+    "imageURL": "assets/datas/img/IAE-FRANCE_logo.png"
 },
 {
     "id":2,
@@ -27,6 +27,6 @@
     "school": "IUT Clermont-Ferrand",
     "description": ["Algorithms","Oriented Object Programmation","Gang of Four Design pattern","Conception : UML, MERISE, SADT","Software programming, web","Team projects of 2, 3 and 5 teammates"],
     "skillsInvolved": ["C","C++","Java/J2E","PHP","C#.Net/WPF","HTML/CSS/Javascript","Android","XML/XSD/XSLT","SQL","PL/SQL"],
-    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/02/Logo_universit%C3%A9_d%27auvergne_UDA.png"
+    "imageURL": "assets/datas/img/UDA_logo.png"
 }
 ]
