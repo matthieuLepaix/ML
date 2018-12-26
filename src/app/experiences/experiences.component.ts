@@ -21,6 +21,13 @@ export class ExperiencesComponent implements OnInit {
   constructor(private service: ExperiencesService) { }
 
   ngOnInit() {
+    
+    if(this.lang === 'fr'){
+      this.title = "Expériences";
+    }else{
+      this.title = "Experiences"
+    }
+
     this.service.getExperiences(this.lang).subscribe(
       data => this.experiences = data
     )

@@ -13,6 +13,11 @@ export class AboutComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    if(this.lang === 'fr'){
+      this.title = "A Propos";
+    }else{
+      this.title = "About me"
+    }
   }
 
 }
