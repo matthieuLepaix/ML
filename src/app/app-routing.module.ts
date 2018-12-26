@@ -6,7 +6,7 @@ import { MainComponent } from './main/main.component';
 const routes: Routes = [
   { path: '', redirectTo: '/en', pathMatch: 'full'},
   { path: ':langToDisplay', component: MainComponent},
-  { path: '**', component: PageNotFoundComponent}
+  { path: '**', redirectTo: '/en', }
 ];
 
 @NgModule({
