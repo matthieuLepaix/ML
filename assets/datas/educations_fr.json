@@ -7,7 +7,7 @@
     "school": "ISIMA",
     "description":["Algorithmie","Administration de base de données","Développement SQL","Simulation à flux discret","Analyse et fouille de données","Aide à la décision","Recherche opérationnelle","Développement mobile Android","Intelligence d'affaires","Big Data"],
     "skillsInvolved": ["C","C++","Java/J2E","PHP/Laravel","Hadoop","Android","Talend/Business object/WEKA","SAS","ERP/Qualiac/SAP",""],
-    "imageURL": "https://lucbabut.files.wordpress.com/2016/05/isima.png"
+    "imageURL": "assets/datas/img/Isima_logo.png"
 },
 {
     "id":1,
@@ -17,7 +17,7 @@
     "school": "IAE Clermont-Ferrand",
     "description": ["Gestion d'équipe","Communication ","Comptabilité, Contrôle de gestion","Intrapreunariat", "Stratégie","Marketing","Commerce international, négociation","Droit des affaires"],
     "skillsInvolved": ["Excel", "Etude de marché", "Matrice BCG","Matrice McKinsey","Matrice SWOT","Méthode PESTEL","Forces de Porter"],
-    "imageURL": "https://www.iae-france.fr/wp-content/uploads/2018/11/20180910-Logo-IAE-FRANCE.png"
+    "imageURL": "assets/datas/img/IAE-FRANCE_logo.png"
 },
 {
     "id":2,
@@ -27,6 +27,6 @@
     "school": "IUT Clermont-Ferrand",
     "description": ["Algorithmie","Programmation orientée objet","Patron de conception Gang of Four ","Modélisation : UML, MERISE, SADT","Langages de programmation logiciel, web","Projets en groupe de 2, 3 et 5 personnes"],
     "skillsInvolved": ["C","C++","Java/J2E","PHP","C#.Net/WPF","HTML/CSS/Javascript","Android","XML/XSD/XSLT","SQL","PL/SQL"],
-    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/02/Logo_universit%C3%A9_d%27auvergne_UDA.png"
+    "imageURL": "assets/datas/img/UDA_logo.png"
 }
 ]
